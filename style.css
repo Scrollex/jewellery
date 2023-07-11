@@ -1,0 +1,711 @@
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap');
+*,
+*::before,
+*::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Futura',sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.shop-button{
+    color: white;
+    background-color: black;
+    margin: 10px 0px;
+    padding: 10px 18px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 12px;
+    min-width: 125px;
+}
+
+/* Header Başlangıcı */
+
+/* ---Header Top Başlangıcı--- */
+header{
+    background-color: #fff;
+    display: flex;
+    position: sticky;
+    z-index: 10000;
+    transition: ease 4s;
+    top: 0;
+    flex-direction: column;
+}
+div.header-top{
+    align-self: flex-start;
+    width: 100%;
+    border-bottom: 0.5px solid rgb(209, 207, 207);
+}
+.social-media{
+    width: 70%;
+    margin: auto;
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+}
+.social-icon{
+    font-size: 1.2rem;
+    margin: 5px;
+}
+.social-media a{
+    color: black;
+}
+
+
+
+/* ---Header Top Bitimi--- */
+
+
+/* Header Main Başlangıcı */
+.header-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-part-container{
+    display: flex;
+    flex-direction: column;
+}
+.header-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 3px solid red; */
+    width: 33.3%;
+    padding:30px 0px ;
+    padding-bottom: 0px;
+}
+.header-bottom{
+    display: inline-block;
+    margin: auto;
+}
+.header-bottom ul.header-ul>li{
+    display: inline-block;
+    margin: 10px;
+    font-size: 13px;
+    letter-spacing: 0.25em;
+    font-weight: .5rem;
+    position: relative;
+    padding-bottom: 4px;
+    overflow: hidden;
+}
+.header-bottom ul.header-ul> li a{
+    text-decoration: none;  
+    color:black;
+    font-weight: .5rem;
+}
+
+.header-bottom ul.header-ul> li::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid black;
+    right: 100%;
+    transition: ease .5s;
+}
+.header-bottom ul.header-ul> li:hover::after{
+    right: 0;
+}
+/* Header Main Bitimi */
+
+/* nav-bars */
+.nav-bar-shop{
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0px -.5px .5px rgba(189, 189, 189, 0.521);
+    z-index: 100;
+    padding: 20px;
+    display: flex;
+    /* border: 3px solid blue; */
+}
+.nav-shop-item{
+    /* border: 3px solid red; */
+    margin:10px 40px;
+}
+.nav-shop-item li{
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: .5rem;
+}
+.nav-shop-item li.nav-shop-title{
+    margin-bottom: 27px;
+    letter-spacing: 0.25em;
+}
+
+/* Header Bitimi */
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    position: relative;
+    background-color: #e8dcdc;
+    padding: 10px;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  text-align: center;
+}
+.mySlides p{
+    font-family:'Futura PT',sans-serif ;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -20px ;
+  padding: 6px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #bebebebe;
+  color: white;
+}
+
+/* Slide Bar Bitimi */
+
+
+/* Section Başlangcı */
+
+/* section 1 */
+.black-woman-images{
+    background-image: url(https://cdn.shopify.com/s/files/1/1867/9891/files/Untitled_design_2_1944x.jpg?v=1664538551);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+    /* border: 3px solid blue; */
+}
+.black-woman-text{
+    /* border: 3px solid red; */
+    width: 44.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.black-woman-text p{
+    margin-top: 7px;
+    font-family:'Poppins', sans-serif;
+    letter-spacing: 0px;
+}
+
+
+/* section 2 */
+.asian-content{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px;
+}
+.asian-woman-text{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 100%;
+    margin-left: 80px;
+    /* border: 3px solid red; */
+}
+.asian-woman-text >*{
+    margin-bottom: 9px;
+}
+.asian-woman-text h3{
+    font-family: 'Arima', cursive;
+    line-height: 1.1;
+    font-weight: 400;
+}
+.asian-woman-text p{
+    font-family: 'Futura PT', sans-serif;
+    letter-spacing: .025em;
+    line-height: 1.6;
+}
+.asian-woman-text button{
+    padding: 5px 7px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    cursor: pointer;
+}
+.free-shipping{
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%px;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid red; */
+}
+
+
+/* section 3 */
+.forest-bg{
+    background-image: url(img/forest-bg.jpg);
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 60px 160px;
+    padding-right: 60px;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+.forest-bg #tree-planted{
+    margin-bottom: 40px;
+}
+.forest-bg p{
+    font-size: 16px;
+    
+}
+.forest-bg button {
+    background-color: white;
+    padding: 15px 19px;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border: none;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+
+/* section 4 */
+.slide-show>nav{
+    /* border: 3px solid red; */
+    position: relative;
+    width: 100%;
+}
+.container{
+    width: 50%;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+/*Area of images*/
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 6s infinite;
+}
+
+img{
+    width: 100%;
+}
+/*Animation activated by keyframes*/
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+
+/* section 5 */
+.season-favorites{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    /* border: 3px solid red; */
+}
+.season-favs{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-start;
+    flex-direction: column;
+    width: 450px;
+    height: 477px;
+    color: white;
+    margin: 0px 2.5px;
+    padding: 30px;
+}
+.season-favs p{
+    line-height: 1.3rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-style: 'Futura',sans-serif;
+}
+/* .season-favs a{
+    color: white;
+    background-color: black;
+    margin: 10px 0px;
+    padding: 10px 18px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 12px;
+} */
+.fav1{
+    background-image: url(img/fashion1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fav2{
+    background-image: url(img/fashion2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fav3{
+    background-image: url(img/fashion3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* section 6 */
+.comments-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 3px solid red; */
+}
+.comment-title{
+    margin: 40px;
+    font-weight: 600;
+}
+nav.comment-fix{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.comment-container{
+    margin: 0px 18px;
+}
+.comment-container>p{
+    margin: 20px 0px;
+}
+.comment-container>p:first-child{
+    font-size: 1.8rem;
+}
+.comment-container .comment-text{
+    line-height: 1.5rem;
+}
+.comment-name::before{
+    content: "\2014       ";
+}
+
+/* section 7 */
+.two-women-section{
+    display: flex;
+    width: 96%;
+    margin: 20px auto;
+    justify-content: space-between;
+    color: white;
+}
+.two-women-section>div{
+    background-color: #d0c4bc;
+    position: relative;
+    mix-blend-mode: color-burn;
+    width: 49.5%;
+    height: 620px;
+    padding: 30px;
+    
+    background-repeat: no-repeat;
+    background-size:cover ;
+    
+}
+/* .two-women-section a{
+    color: white;
+    background-color: black;
+    margin: 10px 0px;
+    padding: 10px 18px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 12px;
+} */
+.women-white{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-image: url(img/womenwhite.png);
+    background-position: center;
+}
+.women-black{
+    background-image: url(img/womenblack.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.women-white div:first-child,.women-black div:first-child{
+    letter-spacing: 6px;
+    font-size: 1.3rem;
+}
+.women-white div, .women-black div{
+    margin: 10px 0px;
+    font-size: 1.25rem;
+}
+
+/* seciton 8 */
+.women-cap{
+    margin: 120px 0px;
+    display: flex;
+    justify-content: center;
+}
+.cap-image{
+    margin-right: 120px;
+}
+.cap-text{
+    /* font-size: 1.1em; */
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 17.5px;
+}
+.cap-text h3{
+    /* font-size: 1.1em; */
+    font-family: 'Arima', cursive;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 1.1;
+    margin-bottom: 6px;
+}
+.cap-text p{
+    letter-spacing: .025em;
+    font-weight: 500;
+}
+.cap-text a{
+    font-size: 13px;
+    margin: 10px 0px;
+    padding: 10px 14px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+}
+
+/* section 9 */
+.two-white-women{
+    /* border: green solid 3px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.two-white-women>*{
+    margin: 0px 7px;
+    padding: 30px;
+    width: 700px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+.two-white-women>div>div{
+    letter-spacing: 6px;
+    font-size: 1.3rem;
+    margin: 10px 0px;
+}
+.two-white-women a{
+    color: white;
+    background-color: black;
+    margin: 10px 0px;
+    padding: 10px 18px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 12px;
+    width: 125px;
+}
+.women-left{
+    background-image: url(img/women-left.jpg);
+}
+.women-right{
+    background-image: url(img/women-right.jpg);
+    align-items: flex-end;
+}
+
+/* section 10 */
+.e-mail{
+    width: 100%;
+    /* border: 3px solid red; */
+    padding: 40px;
+    margin: 50px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+    font-weight: 500;
+    background-color:#e8dcdc;
+}
+.e-mail>*{
+    margin: 10px 0px;
+}
+.e-mail input{
+    background-color: transparent;
+    border: .5px solid white;
+    border-radius: 4px;
+    height: 2rem;
+    padding: 9px;
+    font-size: 17px;
+}
+
+/* section 11 */
+.earrings{
+    /* border: 3px solid red; */
+    width: 100%;
+    margin: 50px 0px;
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+.earrings>div{
+    margin-bottom: 30px;
+}
+.earrings nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.earring-items{
+    width: 231px;
+    text-align: center;
+    margin: 0px 20px;
+    font-size: .8em;
+}
+.earring-items div{
+    letter-spacing: 3px;
+}
+
+/* section 12 */
+.our-story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid red; */
+    padding: 30px 0px;
+    margin: 50px 0px;
+}
+.our-story>nav{
+    margin-left: 60px;
+    line-height: 1.2em;
+    font-size: 17px;
+    font-weight: 600;
+}
+/* Section Bitimi */
+
+
+/* Footer Başlangıcı */
+footer{
+    background-color: #e8dcdc;
+    padding: 40px;
+}
+
+/* footer top left */
+.footer-top{
+    display: flex;
+    margin-bottom: 40px;
+}
+.footer-top ul{
+    margin: 0px 100px;
+}
+.footer-top ul li{
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Futura',sans-serif;
+}
+
+/* footer top right */
+.footer-right-title{
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+.footer-top>div>p{
+    font-size: 13px;
+}
+.footer-top input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 7px 0px;
+}
+.footer-social i{
+    margin: 10px 10px;
+    font-size: 1.4em;
+}
+
+/* footer bottom */
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}
+.cc-container{
+    display: flex;
+}
+.cc-container img{
+    width: 38px;
+    display: inline;
+    aspect-ratio: 3/2;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+/* Footer Bitimi */

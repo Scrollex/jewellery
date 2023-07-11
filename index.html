@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3389ce1198.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <div class="header-top">
+
+            <div class="social-media">
+
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                </div>
+
+            </div>
+    </div>
+    <header>
+        
+        <div class="header-main">
+            <div class="header-part-container"></div>
+
+                <div class="header-part">
+                <i style="cursor:pointer;" class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="header-part">
+                    <div class="header-text">
+                   <a href="#"><img src="img/branch-logo.jpg" ></a>
+                    </div>
+                </div>
+                <div class="header-part" style="display: flex; flex-direction: row;">
+                      <i style="margin-right:30px ; cursor:pointer;" class="fa-regular fa-user"></i>
+                      <i style="cursor:pointer;" class="fa-solid fa-bag-shopping"></i>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <ul class="header-ul"> 
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#"  id="shop" onclick="shopOver()">SHOP</a></li>
+                    <li><a href="#">NEW IN</a></li>
+                    <li><a href="#">EXPLORE</a></li>
+                    <li><a href="#">PRESS</a></li>
+                    <li><a href="#">OUR STORY</a></li> 
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">WHOLESALE</a></li>
+               </ul>
+            </div>
+        </div>
+        <!-- <nav class="nav-bar-shop">
+        
+          <div class="nav-shop-item">
+            <ul>
+              <li class="nav-shop-title"><a href="#">SHOP BY CATEGORY</a></li>
+              <li><a href="#">SHOP ALL</a></li>
+              <li><a href="#">BANGLES + CUFFS</a></li>
+              <li><a href="#">BRACELETS</a></li>
+              <li><a href="#">EARRINGS</a></li>
+              <li><a href="#">NECKLASES + PENDANTS</a></li>
+              <li><a href="#">RINGS</a></li>
+            </ul>
+          </div>
+
+          <div class="nav-shop-item">
+            <ul>
+              <li class="nav-shop-title"><a href="#">TRENDING</a></li>
+              <li><a href="#">NEW IN</a></li>
+              <li><a href="#">BEST SELLERS</a></li>
+              <li><a href="#">CORAL</a></li>
+              <li><a href="#">LEAF</a></li>
+              <li><a href="#">HOOP EARRINGS</a></li>
+            </ul>
+          </div>
+
+          <div class="nav-shop-item">
+            <ul>
+              <li class="nav-shop-title"><a href="#">SHOP BY MATERIAL</a></li>
+              <li><a href="#">BUFFALO HORN JEWELLERY</a></li>
+              <li><a href="#">WOODEN JEWELLERY</a></li>
+              <li><a href="#">SILVER AND GOLD JEWELLERY </a></li>
+            </ul>
+          </div>
+        
+        </nav> -->
+    </header>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+      <!-- Full-width slides/quotes -->
+      <div class="mySlides">
+        <p>FREE SHIPPING FOR ALL ORDERS OVER £50</p>
+      </div>
+    
+      <div class="mySlides">
+        <p>WE PLANT A TREE FRO EACH ITEM PURCHASED</p>
+      </div>
+    
+      <div class="mySlides">
+        <p>HANDMADE ETHCIAL JEWELLERY</p>
+      </div>
+
+      <!-- Next/prev buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <section class="black-woman-images">
+    <div class="black-woman-text">
+      <h4>NEW COLLECTION</h4>
+      <p>Discover our newest pieces for this season</p>
+    </div>
+    </section>
+
+    <section class="asian-chick">
+      <nav class="asian-content">
+        <div class="asian-woman">
+          <img src="https://cdn.shopify.com/s/files/1/1867/9891/files/20201130_144756_002_e2121cfa-9a44-454f-856e-2ae04de69ed5_540x.jpg?v=1652367246">
+        </div>
+
+        <div class="asian-woman-text">
+          <h3>BUFFALO COLLECTION</h3>
+          <p>
+            Discover our bright, beautiful and ethical buffalo horn collection. <br>
+            From stunning colourful cuff to natural earring and rings. We have <br>
+            your summer style covered. 
+          </p>
+          <button class="shop-button">SHOP NOW</button>
+        </div>
+      </nav>
+      <nav class="free-shipping">
+        <p>Free shipping on all UK orders over £50</p>
+      </nav>
+    </section>
+
+    <section class="forest-bg">
+      <h1 id="tree-planted">10,000 TREES PLANTED</h1>
+      <h1>A TREE PLANTED FOR EVERY ITEM SOLD </h1>
+      <p>We Are super excited to have teamed up with the leading climate activist group Ecologi. It's so simple; every time an item is sold we donate a</p>
+      <p>percenttage of each sale to Ecologi and they use these funds to plant a tree.</p>
+      <button>LEARN MORE</button>
+    </section>
+
+    <section class="slide-show">
+      <nav>
+        <div class="container">
+        <!--Area of the images-->
+           <div class="wrapper">
+              <img src="https://cdn.shopify.com/s/files/1/1867/9891/files/Page-006_1944x.jpg?v=1652374428">
+              <img src="https://cdn.shopify.com/s/files/1/1867/9891/files/Page-007_1944x.jpg?v=1652374445">
+              <img src="https://cdn.shopify.com/s/files/1/1867/9891/files/Page-008_985c35cd-e014-4eda-b9ab-fe4c176c8068_1944x.jpg?v=1652374465">
+              <img src="https://cdn.shopify.com/s/files/1/1867/9891/files/Page-009_1944x.jpg?v=1652374480">
+           </div>
+         
+        </div>
+      </nav>
+    </section>
+
+    <section class="season-favorites">
+      <div class="season-favs fav1">
+        <p>This season hot colour. Shop our mint coloured jewellery.</p>
+        <a href="#" class="shop-button">SHOP MINT</a>
+      </div>
+
+      <div class="season-favs fav2">
+        <p>Brighten up your wardrope with our Orange jewellery collection</p>
+        <a href="#" class="shop-button">SHOP ORANGE</a>
+      </div>
+
+      <div class="season-favs fav3">
+        <p>Hoop earrings to fall in love with</p>
+        <a href="#" class="shop-button">SHOP HOOPS</a>
+      </div>
+    </section>
+
+    <section class="comments-section">
+      <div class="comment-title">WHAT OUR CUSTOMERS SAY </div>
+
+      <nav class="comment-fix">
+        <div class="comment-container">
+          <p><i class="fa-solid fa-quote-right"></i></p>
+          <p class="comment-text">
+            Thank you for sending my order so quickly. I think my friends <br> 
+            will love their gifts and I'm already wearing the pieces I <br>
+            treated myselft to. Great ethos, great design.
+          </p>
+          <p class="comment-name">Caroline</p>
+        </div>
+        <div class="comment-container">
+          <p><i class="fa-solid fa-quote-right"></i></p>
+          <p class="comment-text">
+            My delivery has arrived. It's so beautiful. How is it that I <br>
+            have only just found your company. Everything is just <br>
+            fabulous - right down to the handwritten note. The personal <br>
+            touch is much appreciated.
+          </p>
+          <p class="comment-name">Joanne</p>
+        </div>
+        <div class="comment-container">
+          <p><i class="fa-solid fa-quote-right"></i></p>
+          <p class="comment-text">
+            My bracelets arrived and they're gorgeous.<br>
+            I'm sure I'll be ordering more, but in the maintime, thank <br>
+            you so much for all the personal help and service you've <br>
+            offered- it's been very much appreciated.
+          </p>
+          <p class="comment-name">Clare</p>
+        </div> <!-- Burayı Slayt Haline Getir! 6 yorum daha eklenecek -->
+      </nav>
+    </section>
+
+    <section class="two-women-section">
+      <div class="women-white">
+        <div>BANGLES AND CUFFS</div>
+        <div>Find your perfect bangle stack</div>
+        <a href="#" class="shop-button">SHOP NOW</a>
+      </div>
+      <div class="women-black">
+        <div>STATEMENT NECKLACES</div>
+        <div>Power up your look with our collection of statement necklaces</div>
+        <a href="#" class="shop-button">SHOP NOW</a>
+      </div>
+    </section>
+
+    <section class="women-cap">
+      <div class="cap-image">
+        <img src="img/women-with-cap.png" width="500px" height="570.36px">
+      </div>
+      <div class="cap-text">
+        <h3>AS SEEN IN VOGUE</h3>
+        <p>
+          Our very popular wooden link bracelets. recently featured in British <br>
+          Vogue magazine.
+        </p>
+        <a href="#">SHOP BRACELETS</a>
+      </div>
+    </section>
+
+    <section class="two-white-women">
+      <div class="women-left">
+        <div>SILVER + GOLD</div>
+        <p>Delicate silver and gold pieces perfect for layering.</p>
+        <a href="#" class="shop-button">SHOP NOW</a>
+      </div>
+
+      <div class="women-right">
+        <div>FACETED COLLECTION</div>
+        <p>A unique collection of hand carved faceted wood pieces.</p>
+        <a href="#" class="shop-button">SHOP NOW</a>
+      </div>
+    </section>
+
+    <section class="e-mail">
+      <div>SING UP FOR 10% OFF FIRST ORDER</div>
+      <p>Subscribe to get special offers, free giveaways, and be the first to hear about new collections</p>
+      <div>
+        <input type="text" placeholder="Enter your email">
+        <a href="#" class="shop-button">SUBSCRIBE</a>
+      </div>
+    </section>
+
+    <section class="earrings">
+      <div>SHOP BY CATEGORY</div>
+      <nav>
+        <div class="earring-items item1">
+          <img src="img/jewelry_1.png">
+          <div>BANGLES AND CUFFS</div>
+        </div>
+        <div class="earring-items item2">
+          <img src="img/jewelry_2.png">
+          <div>BRACELETS</div>
+        </div>
+        <div class="earring-items item3">
+          <img src="img/jewelry_3.png">
+          <div>EARRINGS</div>
+        </div>
+        <div class="earring-items item4">
+          <img src="img/jewelry_4.png">
+          <div>NECKLACES + PENDANTS</div>
+        </div>
+        <div class="earring-items item5">
+          <img src="img/jewelry_5.png">
+          <div>RINGS</div>
+        </div>
+      </nav>
+    </section>
+
+    <section class="our-story">
+      <div>
+        <img src="img/kaynak.png" width="180px">
+      </div>
+      <nav>
+        <div>OUR STORY</div> <br>
+        <p>Our jewellery is all handmade from ethically sourced materials,<br>
+          using traditional methods in small workshops in Bali and Vietnam.<br>
+          <br>
+          We are very proud to support the local communities in these rural<br>
+          areas and ensure Fair Trade policies apply on all production. <br> <br> 
+        </p>
+        <a href="#" class="shop-button">LEARN MORE</a>
+      </nav>
+    </section>
+
+    <footer>
+      <div class="footer-top">
+        <ul>
+          <li>CONTACT US</li>
+          <li>CUSTOMER SERVICES</li>
+          <li>DELIVERY INFORMATION</li>
+          <li>RETURNS & REFUNDS</li>
+          <li>CARE DETAILS</li>
+          <li>TERMS & CONDITIONS</li>
+          <li>COOKIE POLICY</li>
+          <li>WHOLESALE</li>
+        </ul>
+        <div>
+          <div class="footer-right-title">SIGN UP AND GET 10% OFF YOUR FIRST ORDER</div> <br>
+          <p>Subscribe to get special offers, free giveaways, and be the first to hear about new collections</p> <br>
+          <input type="text" placeholder="Enter your email">
+          <div class="footer-social">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="cc-container">
+          <img src="img/cc-amex.png" title="amex">
+          <img src="img/cc-diner-club.jpg" title="diner club">
+          <img src="img/cc-discover.png" title="discover">
+          <img src="img/cc-gpayjpg.jpg" title="google pay">
+          <img src="img/cc-maestro.jpg" title="maestro">
+          <img src="img/cc-mastercard.jpg" title="mastercard">
+          <img src="img/cc-paypal.jpg" title="paypal">
+          <img src="img/cc-shoppay.jpg" title="shop pay">
+          <img src="img/cc-visa.png" title="visa">
+        </div> <br>
+        <div>© 2023 Branch Jewellery</div> <br>
+        <div>Powered by Shopify</div><br>
+      </div>
+    </footer>
+
+    <script>
+      ScrollReveal().reveal('.asian-woman',{delay:250});
+      ScrollReveal().reveal('.black-woman-images',{delay:500});
+      ScrollReveal().reveal('.black-woman-text',{delay:750});
+
+
+      ScrollReveal().reveal('.forest-bg',{delay:250});
+      ScrollReveal().reveal('.slide-show',{delay:500});
+
+      ScrollReveal().reveal('.fav1',{delay:750});
+      ScrollReveal().reveal('.fav2',{delay:1000});
+      ScrollReveal().reveal('.fav3',{delay:1250});
+
+
+      ScrollReveal().reveal('.women-white',{delay:500});
+      ScrollReveal().reveal('.women-black',{delay:750});
+
+      ScrollReveal().reveal('.women-cap',{delay:250});
+
+      ScrollReveal().reveal('.women-left',{delay:250});
+      ScrollReveal().reveal('.women-right',{delay:500});
+
+
+      ScrollReveal().reveal('.item1',{delay:250});
+      ScrollReveal().reveal('.item2',{delay:500});
+      ScrollReveal().reveal('.item3',{delay:750});
+      ScrollReveal().reveal('.item4',{delay:1000});
+      ScrollReveal().reveal('.item5',{delay:1250});
+    </script>
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
